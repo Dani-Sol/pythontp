@@ -28,7 +28,7 @@ def capicuas ():
         porcentaje = capicua * 100 / len(numeros)
     return (porcentaje)    
     # quizas me conviene ponerlo aca y no devolverlo??? print('El porcentaje de numeros capicuas es de', porcentaje, '%.')
-
+#un cambio
 
 def es_capicua (n): 
     es = False
