@@ -63,9 +63,12 @@ def buscarmultiplos():
 
 def mostrarMultiplos():
     mult4y6.sort
-    print('Los numeros multiplos de 4 y 6 son: ')
-    for i in range (len(mult4y6)):
-        print(mult4y6[i])
+    if (len(mult4y6)>0):
+        print('Los numeros multiplos de 4 y 6 son: ')
+        for i in range (len(mult4y6)):
+            print(mult4y6[i])
+    else:
+        print('No hay multiplos de 4 y 6')
 
 
 
