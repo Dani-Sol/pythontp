@@ -7,7 +7,6 @@
 
 
 numeros = []
-capicua = int
 mult4y6 = []
 
 
@@ -26,8 +25,8 @@ def capicuas ():
             capicua = capicua + 1
     if (capicua != 0):
         porcentaje = capicua * 100 / len(numeros)
-    return (porcentaje)    
-    # quizas me conviene ponerlo aca y no devolverlo??? print('El porcentaje de numeros capicuas es de', porcentaje, '%.')
+    print('El porcentaje de numeros capicuas es de', porcentaje, '%.')    
+    
 
 
 def es_capicua (n): 
@@ -72,11 +71,7 @@ def mostrarMultiplos():
 
 #algoritmoPpal
 ingresarNumeros()
-perCapicuas = capicuas ()
-print('El porcentaje de numeros capicuas es de', perCapicuas, '%.')
+capicuas ()
 buscarminimo()
 buscarmultiplos()
 mostrarMultiplos()
-
-
-
